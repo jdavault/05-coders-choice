@@ -1,20 +1,11 @@
-Name: ____________           ID:   ____________
+Name:  Joe Davault           ID:  46360344
 
 ## Proposed Project
 
-> Replace this paragraph with the description of what your project
-> will do. Tell me what kind of interface it will have, and roughly
-> how it will work. I don't need more than three or four sentences,
-> unless you feel compelled to write more.
+I want to take elements from the Hangman project (supervisors and worker processes) and from the Notes lecture and create a Phoenix "MVC" version of the hangmen using routes, controllers, view, partials.  Instead of having a dictiony on the file system, i will store it in a Postgres database so I an play with the Postgrex adapter.
+
 
 ## Outline Structure
 
-> Describe how you'll organize your code. What is the process and
-> supervision structure? If it uses a framework, how does it fit in. I
-> just need to understand the direction you plan to take. Again, three
-> or four sentences are probably enough.
+Three teirs -- web, model (business logic) and repo.  Similar to what had in the hangman, I will have the model under supervision. I'm thinking it makes sense to separate out the model and repo and supervis both but I need to play with that and think through it.   
 
-
-
-> replace all the ">" lines with your content, then push this to
-> github and issue a merge request.
