@@ -1,0 +1,5 @@
+<div class="jumbotron">
+  <h2><%= DateTime.utc_now %></h2>
+  <h3>Welcome <%=@name %></h3>
+  <p>Visits:  <%=@visit%></p>
+</div>
